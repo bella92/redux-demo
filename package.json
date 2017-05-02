@@ -1,0 +1,27 @@
+{
+  "name": "redux-demo",
+  "version": "0.0.1",
+  "description": "Demonstration of Redux",
+  "keywords": [
+    "demo",
+    "redux"
+  ],
+  "repository": "https://github.com/bella92/redux-demo.git",
+  "homepage": "https://github.com/bella92/redux-demo",
+  "author": "Izabela Nedyalkova <izabela.nedyalkova@amexis.net>",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "redux": "^3.6.0",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "main": "index",
+  "engines": {
+    "node": ">= 0.4.1"
+  },
+  "scripts": {
+    "server:dev": "webpack-dev-server --progress --watch --colors",
+    "start": "npm run server:dev",
+    "webpack-dev-server": "webpack-dev-server"
+  }
+}
