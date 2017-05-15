@@ -10,4 +10,7 @@ let unsubscribe = store.subscribe(() => {
   console.log(store.getState())
 })
 
-store.dispatch(addTodo('Learn redux!'))
+store.dispatch(addTodo('Learn actions!'))
+store.dispatch(addTodo('Learn reducers!'))
+
+unsubscribe()
